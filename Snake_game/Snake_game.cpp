@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <ctime>
 #include <string>
 #include <windows.h>
@@ -94,7 +94,7 @@ void Draw()
 	}
 
 
-	for (int i = 0; i < weight + 1; i++)
+	for (int i = 0; i < weight+1; i++)
 	{
 
 		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), g);
@@ -106,7 +106,7 @@ void Draw()
 	}
 
 	cout << endl;
-	for (int i = 0; i < hight; i++)
+	for (int i = 0; i < hight-1; i++)
 	{
 		for (int j = 0; j < weight + 1; j++)
 		{
