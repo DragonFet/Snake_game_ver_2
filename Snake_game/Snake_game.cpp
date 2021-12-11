@@ -179,16 +179,16 @@ void input()
 	{
 		switch (_getch())
 		{
-		case 'a':
+		case 'g':
 			trafic = LEFT;
 			break;
-		case 'w':
+		case 'y':
 			trafic = UP;
 			break;
-		case'd':
+		case'j':
 			trafic = RIGHT;
 			break;
-		case 's':
+		case 'h':
 			trafic = DOWN;
 			break;
 		case 'f':
@@ -328,6 +328,7 @@ int main()
 			cout << "Input '0' if you scared for run out in game " << endl;
 			cout << "Please input '1' for start gamesssss....." << endl;
 			cout << "Input '2' for watch Lider Bord" << endl;
+			cout << "Control y-up h-down g-left j-right and if you want left game please tab f" << endl;
 			/*
 			cin >> solution_2;
 			while (solution_2 =="1"|| solution_2 =="2"|| solution_2 =="0")
